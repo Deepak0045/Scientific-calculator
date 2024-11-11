@@ -154,7 +154,7 @@ columnvalue = 0
 
 # Create and place each button in the grid
 for i in button_text_list:
-    button = Button(root, width=5, height=2, bd=2, relief=SUNKEN, text=i, bg='#3697f5', fg='white',
+    button = Button(root, width=5, height=2, bd=2, relief=SUNKEN, text=i, bg='#17161b', fg='white',
                     font=('arial', 18, 'bold'), activebackground='#3697f5', command=lambda button=i: click(button))
     button.grid(row=rowvalue, column=columnvalue, pady=1)
     
